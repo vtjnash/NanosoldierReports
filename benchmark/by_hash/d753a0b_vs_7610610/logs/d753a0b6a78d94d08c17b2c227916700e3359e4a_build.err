@@ -1,0 +1,6 @@
+make: ccache: Command not found
+/bin/sh: 1: ccache: not found
+/bin/sh: 1: ccache: not found
+/bin/sh: 1: ccache: not found
+/bin/sh: 1: ccache: not found
+/home/ubuntu/test_workdir/jl_SAOA9F/Make.inc:1190: *** "Attempting to build OpenBLAS or SuiteSparse without a functioning fortran compiler!".  Stop.
