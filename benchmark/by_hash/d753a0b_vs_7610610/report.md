@@ -4,7 +4,7 @@
 
 *Commit(s):* [vtjnash/julia@d753a0b6a78d94d08c17b2c227916700e3359e4a](https://github.com/vtjnash/julia/commit/d753a0b6a78d94d08c17b2c227916700e3359e4a) vs [vtjnash/julia@76106100559e6dc61769cdbd3d53836e22ffa5e9](https://github.com/vtjnash/julia/commit/76106100559e6dc61769cdbd3d53836e22ffa5e9)
 
-*Triggered By:* [link](https://github.com/vtjnash/julia/commit/d753a0b6a78d94d08c17b2c227916700e3359e4a#commitcomment-47443929)
+*Triggered By:* [link](https://github.com/vtjnash/julia/commit/d753a0b6a78d94d08c17b2c227916700e3359e4a#commitcomment-47444387)
 
 *Tag Predicate:* `"problems"`
 
@@ -13,7 +13,7 @@
 The build could not finish due to an error:
 
 ```
-NanosoldierError: failed to run benchmarks against primary commit: failed process: Process(`sudo /home/ubuntu/cset/bin/cset shield -e su nanosoldier -- -c ./benchscript.sh`, ProcessExited(126)) [126]
+NanosoldierError: failed to run benchmarks against primary commit: failed process: Process(`sudo /home/ubuntu/cset/bin/cset shield -e su nanosoldier -- -c ./benchscript.sh`, ProcessExited(1)) [1]
 
 Stacktrace:
  [1] pipeline_error at ./process.jl:525 [inlined]
