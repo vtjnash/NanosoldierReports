@@ -1,21 +1,46 @@
-cset: moving following pidspec: 166166
+cset: moving following pidspec: 239602
 cset: moving 1 userspace tasks to /user/child
 cset: done
 LOADING SUITE...
-loading group "shootout"... done (took 1.212179357 seconds)
-loading group "string"... done (took 0.724610655 seconds)
-loading group "linalg"... done (took 7.963679776 seconds)
-loading group "parallel"... done (took 0.14724505 seconds)
-loading group "find"... done (took 2.50663684 seconds)
-loading group "tuple"... done (took 1.988425469 seconds)
-loading group "dates"... done (took 1.263043809 seconds)
-loading group "micro"... done (took 0.188966846 seconds)
-loading group "io"... done (took 1.230361192 seconds)
-loading group "scalar"... done (took 37.36133322 seconds)
-loading group "sparse"... done (took 11.749695339 seconds)
-loading group "broadcast"... done (took 0.915458685 seconds)
-loading group "union"... done (took 14.350351648 seconds)
-loading group "simd"... done (took 4.500536041 seconds)
-loading group "random"... done (took 8.76834729 seconds)
-loading group "problem"... done (took 1.812781792 seconds)
-loading group "array"... 
+loading group "broadcast"... done (took 1.747004669 seconds)
+loading group "shootout"... done (took 1.081185655 seconds)
+loading group "string"... done (took 0.654557175 seconds)
+loading group "linalg"... done (took 8.512179749 seconds)
+loading group "parallel"... done (took 0.162238989 seconds)
+loading group "find"... done (took 2.974988739 seconds)
+loading group "tuple"... done (took 2.06305749 seconds)
+loading group "union"... done (took 14.295963149 seconds)
+loading group "dates"... done (took 1.419644605 seconds)
+loading group "micro"... done (took 0.211599349 seconds)
+loading group "simd"... done (took 4.63435497 seconds)
+loading group "io"... done (took 1.431380402 seconds)
+loading group "random"... done (took 9.518677163 seconds)
+loading group "problem"... done (took 1.589346423 seconds)
+loading group "array"... done (took 24.985089321 seconds)
+loading group "misc"... done (took 1.809746111 seconds)
+loading group "scalar"... done (took 42.072262575 seconds)
+loading group "sort"... done (took 3.208258058 seconds)
+loading group "sparse"... done (took 12.759887967 seconds)
+loading group "collection"... done (took 18.403054177 seconds)
+FILTERING SUITE...
+WARMING UP BENCHMARKS...
+(1/20) benchmarking "shootout"...
+  (1/12) benchmarking "k_nucleotide"...
+  done (took 0.43855043 seconds)
+  (2/12) benchmarking "fasta"...
+  done (took 0.113149725 seconds)
+  (3/12) benchmarking "spectralnorm"...
+  done (took 0.161744894 seconds)
+  (4/12) benchmarking "revcomp"...
+  done (took 0.109663048 seconds)
+  (5/12) benchmarking "pidigits"...
+  done (took 0.233316602 seconds)
+  (6/12) benchmarking "binary_trees"...
+  done (took 0.123143647 seconds)
+  (7/12) benchmarking "nbody"...
+  done (took 0.125794599 seconds)
+  (8/12) benchmarking "regex_dna"...
+  done (took 0.086783981 seconds)
+  (9/12) benchmarking "meteor_contest"...
+  done (took 2.214250425 seconds)
+  (10/12) benchmarking "mandelbrot"...
