@@ -4,7 +4,7 @@
 
 *Commit(s):* [vtjnash/julia@49387b2bc67f90650e5c2a982d8fb31e7e6d90b7](https://github.com/vtjnash/julia/commit/49387b2bc67f90650e5c2a982d8fb31e7e6d90b7) vs [vtjnash/julia@de7d695](https://github.com/vtjnash/julia/commit/de7d695)
 
-*Triggered By:* [link](https://github.com/vtjnash/julia/commit/49387b2bc67f90650e5c2a982d8fb31e7e6d90b7#commitcomment-47855606)
+*Triggered By:* [link](https://github.com/vtjnash/julia/commit/49387b2bc67f90650e5c2a982d8fb31e7e6d90b7#commitcomment-47859664)
 
 *Tag Predicate:* `"io"`
 
@@ -53,11 +53,11 @@ Platform Info:
   uname: Linux 4.15.0-135-generic #139-Ubuntu SMP Mon Jan 18 17:38:24 UTC 2021 x86_64 x86_64
   CPU: Intel(R) Xeon(R) Silver 4114 CPU @ 2.20GHz: 
                  speed         user         nice          sys         idle          irq
-       #1-40   800 MHz    6477452 s       5602 s     597440 s  721058300 s          0 s
+       #1-40   800 MHz    6510154 s       5602 s     602763 s  723612633 s          0 s
        
-  Memory: 376.5897979736328 GB (26073.875 MB free)
-  Uptime: 1.820827e6 sec
-  Load Avg:  1.33  1.15  0.91
+  Memory: 376.5897979736328 GB (25406.66796875 MB free)
+  Uptime: 1.82731e6 sec
+  Load Avg:  2.66  2.16  1.6
   WORD_SIZE: 64
   LIBM: libopenlibm
   LLVM: libLLVM-11.0.1 (ORCJIT, skylake-avx512)
@@ -75,11 +75,11 @@ Platform Info:
   uname: Linux 4.15.0-135-generic #139-Ubuntu SMP Mon Jan 18 17:38:24 UTC 2021 x86_64 x86_64
   CPU: Intel(R) Xeon(R) Silver 4114 CPU @ 2.20GHz: 
                  speed         user         nice          sys         idle          irq
-       #1-40   800 MHz    6486971 s       5602 s     598269 s  721343181 s          0 s
+       #1-40   800 MHz    6514138 s       5602 s     603139 s  723762500 s          0 s
        
-  Memory: 376.5897979736328 GB (26053.4453125 MB free)
-  Uptime: 1.821565e6 sec
-  Load Avg:  1.1  1.24  1.18
+  Memory: 376.5897979736328 GB (25383.9921875 MB free)
+  Uptime: 1.827696e6 sec
+  Load Avg:  2.97  2.5  1.94
   WORD_SIZE: 64
   LIBM: libopenlibm
   LLVM: libLLVM-11.0.1 (ORCJIT, skylake-avx512)
