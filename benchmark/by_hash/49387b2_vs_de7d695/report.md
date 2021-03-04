@@ -4,7 +4,7 @@
 
 *Commit(s):* [vtjnash/julia@49387b2bc67f90650e5c2a982d8fb31e7e6d90b7](https://github.com/vtjnash/julia/commit/49387b2bc67f90650e5c2a982d8fb31e7e6d90b7) vs [vtjnash/julia@de7d695](https://github.com/vtjnash/julia/commit/de7d695)
 
-*Triggered By:* [link](https://github.com/vtjnash/julia/commit/49387b2bc67f90650e5c2a982d8fb31e7e6d90b7#commitcomment-47853752)
+*Triggered By:* [link](https://github.com/vtjnash/julia/commit/49387b2bc67f90650e5c2a982d8fb31e7e6d90b7#commitcomment-47855606)
 
 *Tag Predicate:* `"io"`
 
@@ -29,7 +29,6 @@ benchmark results remained invariant between builds).
 
 | ID | time ratio | memory ratio |
 |----|------------|--------------|
-| `["io", "array_limit", "(\"display\", \"Matrix{Float64}(10000, 10000)\")"]` | 1.11 (5%) :x: | 1.13 (1%) :x: |
 
 ## Benchmark Group List
 
@@ -54,11 +53,11 @@ Platform Info:
   uname: Linux 4.15.0-135-generic #139-Ubuntu SMP Mon Jan 18 17:38:24 UTC 2021 x86_64 x86_64
   CPU: Intel(R) Xeon(R) Silver 4114 CPU @ 2.20GHz: 
                  speed         user         nice          sys         idle          irq
-       #1-40   800 MHz    6456349 s       5602 s     595178 s  719959223 s          0 s
+       #1-40   800 MHz    6477452 s       5602 s     597440 s  721058300 s          0 s
        
-  Memory: 376.5897979736328 GB (25660.5703125 MB free)
-  Uptime: 1.81802e6 sec
-  Load Avg:  1.13  1.11  0.95
+  Memory: 376.5897979736328 GB (26073.875 MB free)
+  Uptime: 1.820827e6 sec
+  Load Avg:  1.33  1.15  0.91
   WORD_SIZE: 64
   LIBM: libopenlibm
   LLVM: libLLVM-11.0.1 (ORCJIT, skylake-avx512)
@@ -76,11 +75,11 @@ Platform Info:
   uname: Linux 4.15.0-135-generic #139-Ubuntu SMP Mon Jan 18 17:38:24 UTC 2021 x86_64 x86_64
   CPU: Intel(R) Xeon(R) Silver 4114 CPU @ 2.20GHz: 
                  speed         user         nice          sys         idle          irq
-       #1-40   800 MHz    6466532 s       5602 s     596072 s  720272699 s          0 s
+       #1-40   800 MHz    6486971 s       5602 s     598269 s  721343181 s          0 s
        
-  Memory: 376.5897979736328 GB (25962.55078125 MB free)
-  Uptime: 1.818831e6 sec
-  Load Avg:  1.01  1.18  1.21
+  Memory: 376.5897979736328 GB (26053.4453125 MB free)
+  Uptime: 1.821565e6 sec
+  Load Avg:  1.1  1.24  1.18
   WORD_SIZE: 64
   LIBM: libopenlibm
   LLVM: libLLVM-11.0.1 (ORCJIT, skylake-avx512)
