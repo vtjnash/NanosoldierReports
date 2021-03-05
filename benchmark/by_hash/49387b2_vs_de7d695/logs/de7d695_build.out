@@ -1,6 +1,6 @@
 Creating usr/etc/julia/startup.jl
 Copying in usr/share/man/man1/julia.1
-/home/vtjnash/test_workdir/jl_ZETmcF/contrib/install.sh 755 /home/vtjnash/test_workdir/jl_ZETmcF/contrib/julia-config.jl /home/vtjnash/test_workdir/jl_ZETmcF/usr/share/julia/
+/home/vtjnash/test_workdir/jl_2dPrOb/contrib/install.sh 755 /home/vtjnash/test_workdir/jl_2dPrOb/contrib/julia-config.jl /home/vtjnash/test_workdir/jl_2dPrOb/usr/share/julia/
     [34mCC[0m [33mcli/loader_exe.o[0m
     [34mCC[0m [33mcli/loader_trampolines.o[0m
     [34mCC[0m [33mcli/loader_lib.o[0m
@@ -38,19 +38,19 @@ config.status: executing depfiles commands
 Making all in src
 Making all in tests
 Making install in src
- /bin/mkdir -p '/home/vtjnash/test_workdir/jl_ZETmcF/usr-staging/patchelf-0.9/home/vtjnash/test_workdir/jl_ZETmcF/usr/tools'
-  /usr/bin/install -c patchelf '/home/vtjnash/test_workdir/jl_ZETmcF/usr-staging/patchelf-0.9/home/vtjnash/test_workdir/jl_ZETmcF/usr/tools'
+ /bin/mkdir -p '/home/vtjnash/test_workdir/jl_2dPrOb/usr-staging/patchelf-0.9/home/vtjnash/test_workdir/jl_2dPrOb/usr/tools'
+  /usr/bin/install -c patchelf '/home/vtjnash/test_workdir/jl_2dPrOb/usr-staging/patchelf-0.9/home/vtjnash/test_workdir/jl_2dPrOb/usr/tools'
 Making install in tests
- /bin/mkdir -p '/home/vtjnash/test_workdir/jl_ZETmcF/usr-staging/patchelf-0.9/home/vtjnash/test_workdir/jl_ZETmcF/usr/share/doc/patchelf'
- /usr/bin/install -c -m 644 /home/vtjnash/test_workdir/jl_ZETmcF/deps/srccache/patchelf-0.9/README '/home/vtjnash/test_workdir/jl_ZETmcF/usr-staging/patchelf-0.9/home/vtjnash/test_workdir/jl_ZETmcF/usr/share/doc/patchelf'
- /bin/mkdir -p '/home/vtjnash/test_workdir/jl_ZETmcF/usr-staging/patchelf-0.9/home/vtjnash/test_workdir/jl_ZETmcF/usr/share/man/man1'
- /usr/bin/install -c -m 644 /home/vtjnash/test_workdir/jl_ZETmcF/deps/srccache/patchelf-0.9/patchelf.1 '/home/vtjnash/test_workdir/jl_ZETmcF/usr-staging/patchelf-0.9/home/vtjnash/test_workdir/jl_ZETmcF/usr/share/man/man1'
-    [35mPERL[0m [37;1mbase/file_constants.jl[0m
+ /bin/mkdir -p '/home/vtjnash/test_workdir/jl_2dPrOb/usr-staging/patchelf-0.9/home/vtjnash/test_workdir/jl_2dPrOb/usr/share/doc/patchelf'
+ /usr/bin/install -c -m 644 /home/vtjnash/test_workdir/jl_2dPrOb/deps/srccache/patchelf-0.9/README '/home/vtjnash/test_workdir/jl_2dPrOb/usr-staging/patchelf-0.9/home/vtjnash/test_workdir/jl_2dPrOb/usr/share/doc/patchelf'
+ /bin/mkdir -p '/home/vtjnash/test_workdir/jl_2dPrOb/usr-staging/patchelf-0.9/home/vtjnash/test_workdir/jl_2dPrOb/usr/share/man/man1'
+ /usr/bin/install -c -m 644 /home/vtjnash/test_workdir/jl_2dPrOb/deps/srccache/patchelf-0.9/patchelf.1 '/home/vtjnash/test_workdir/jl_2dPrOb/usr-staging/patchelf-0.9/home/vtjnash/test_workdir/jl_2dPrOb/usr/share/man/man1'
     [35mPERL[0m [37;1mbase/errno_h.jl[0m
-    [35mPERL[0m [37;1mbase/features_h.jl[0m
-    [35mPERL[0m [37;1mbase/features_h.jl[0m
-    [35mPERL[0m [37;1mbase/features_h.jl[0m
+    [35mPERL[0m [37;1mbase/file_constants.jl[0m
     [35mPERL[0m [37;1mbase/pcre_h.jl[0m
+    [35mPERL[0m [37;1mbase/features_h.jl[0m
+    [35mPERL[0m [37;1mbase/features_h.jl[0m
+    [35mPERL[0m [37;1mbase/features_h.jl[0m
     [35mPERL[0m [37;1mbase/uv_constants.jl[0m
     [35mPERL[0m [37;1mbase/build_h.jl.phony[0m
     [35mPERL[0m [37;1mbase/version_git.jl.phony[0m
@@ -59,11 +59,11 @@ Making install in tests
     [34mCC[0m [33msrc/support/int2str.o[0m
     [34mCC[0m [33msrc/support/timefuncs.o[0m
     [34mCC[0m [33msrc/support/htable.o[0m
-    [34mCC[0m [33msrc/support/strtod.o[0m
-    [34mCC[0m [33msrc/support/ptrhash.o[0m
     [34mCC[0m [33msrc/support/libsupportinit.o[0m
     [34mCC[0m [33msrc/support/arraylist.o[0m
+    [34mCC[0m [33msrc/support/strtod.o[0m
     [34mCC[0m [33msrc/support/operators.o[0m
+    [34mCC[0m [33msrc/support/ptrhash.o[0m
     [34mCC[0m [33msrc/support/hashing.o[0m
     [34mCC[0m [33msrc/support/utf8.o[0m
     [34mCC[0m [33msrc/support/ios.o[0m
@@ -81,37 +81,37 @@ Making install in tests
     [34;1mLINK[0m [37;1msrc/flisp/flisp[0m
     [32mFLISP[0m [37;1msrc/julia_flisp.boot[0m
     [32mFLISP[0m [37;1msrc/julia_flisp.boot.inc[0m
-    [34mCC[0m [33msrc/timing.o[0m
-    [34mCC[0m [33msrc/dlload.o[0m
-    [34mCC[0m [33msrc/symbol.o[0m
-    [34mCC[0m [33msrc/safepoint.o[0m
-    [34mCC[0m [33msrc/smallintset.o[0m
     [34mCC[0m [33msrc/threading.o[0m
-    [34mCC[0m [33msrc/simplevector.o[0m
-    [34mCC[0m [33msrc/gc-stacks.o[0m
-    [34mCC[0m [33msrc/gc-pages.o[0m
+    [34mCC[0m [33msrc/precompile.o[0m
+    [34mCC[0m [33msrc/timing.o[0m
+    [34mCC[0m [33msrc/symbol.o[0m
+    [34mCC[0m [33msrc/partr.o[0m
+    [34mCC[0m [33msrc/safepoint.o[0m
     [34mCC[0m [33msrc/sys.o[0m
     [34mCC[0m [33msrc/jloptions.o[0m
-    [34mCC[0m [33msrc/precompile.o[0m
-    [34mCC[0m [33msrc/partr.o[0m
-    [34mCC[0m [33msrc/gc-debug.o[0m
+    [34mCC[0m [33msrc/simplevector.o[0m
+    [34mCC[0m [33msrc/gc-pages.o[0m
+    [34mCC[0m [33msrc/gc-stacks.o[0m
+    [34mCC[0m [33msrc/smallintset.o[0m
+    [34mCC[0m [33msrc/dlload.o[0m
     [34mCC[0m [33msrc/init.o[0m
-    [34mCC[0m [33msrc/stackwalk.o[0m
-    [34mCC[0m [33msrc/interpreter.o[0m
+    [34mCC[0m [33msrc/gc-debug.o[0m
     [34mCC[0m [33msrc/jlapi.o[0m
+    [34mCC[0m [33msrc/stackwalk.o[0m
     [34mCC[0m [33msrc/task.o[0m
-    [34mCC[0m [33msrc/signal-handling.o[0m
-    [34mCC[0m [33msrc/method.o[0m
-    [34mCC[0m [33msrc/jl_uv.o[0m
+    [34mCC[0m [33msrc/interpreter.o[0m
     [34mCC[0m [33msrc/toplevel.o[0m
-    [34mCC[0m [33msrc/rtutils.o[0m
-    [34mCC[0m [33msrc/array.o[0m
-    [34mCC[0m [33msrc/module.o[0m
-    [34mCC[0m [33msrc/opaque_closure.o[0m
+    [34mCC[0m [33msrc/jl_uv.o[0m
+    [34mCC[0m [33msrc/signal-handling.o[0m
     [34mCC[0m [33msrc/crc32c.o[0m
+    [34mCC[0m [33msrc/method.o[0m
+    [34mCC[0m [33msrc/rtutils.o[0m
+    [34mCC[0m [33msrc/module.o[0m
     [34mCC[0m [33msrc/typemap.o[0m
-    [34mCC[0m [33msrc/staticdata.o[0m
+    [34mCC[0m [33msrc/opaque_closure.o[0m
+    [34mCC[0m [33msrc/array.o[0m
     [34mCC[0m [33msrc/runtime_intrinsics.o[0m
+    [34mCC[0m [33msrc/staticdata.o[0m
     [34mCC[0m [33msrc/datatype.o[0m
     [34mCC[0m [33msrc/ircode.o[0m
     [34mCC[0m [33msrc/builtins.o[0m
@@ -120,29 +120,29 @@ Making install in tests
     [34mCC[0m [33msrc/ast.o[0m
     [34mCC[0m [33msrc/gf.o[0m
     [34mCC[0m [33msrc/dump.o[0m
+    [34mCC[0m [33msrc/gc.o[0m
     [34mCC[0m [33msrc/APInt-C.o[0m
     [34mCC[0m [33msrc/subtype.o[0m
-    [34mCC[0m [33msrc/gc.o[0m
-    [34mCC[0m [33msrc/cgmemmgr.o[0m
-    [34mCC[0m [33msrc/llvm-pass-helpers.o[0m
     [34mCC[0m [33msrc/llvm-remove-ni.o[0m
+    [34mCC[0m [33msrc/cgmemmgr.o[0m
     [34mCC[0m [33msrc/processor.o[0m
     [34mCC[0m [33msrc/llvm-muladd.o[0m
-    [34mCC[0m [33msrc/llvm-simdloop.o[0m
     [34mCC[0m [33msrc/llvm-demote-float16.o[0m
+    [34mCC[0m [33msrc/llvm-pass-helpers.o[0m
     [34mCC[0m [33msrc/llvm-ptls.o[0m
+    [34mCC[0m [33msrc/llvm-simdloop.o[0m
+    [34mCC[0m [33msrc/llvm-gc-invariant-verifier.o[0m
     [34mCC[0m [33msrc/llvm-api.o[0m
+    [34mCC[0m [33msrc/llvm-julia-licm.o[0m
     [34mCC[0m [33msrc/llvm-final-gc-lowering.o[0m
     [34mCC[0m [33msrc/llvm-lower-handlers.o[0m
-    [34mCC[0m [33msrc/llvm-gc-invariant-verifier.o[0m
-    [34mCC[0m [33msrc/llvm-julia-licm.o[0m
     [34mCC[0m [33msrc/llvm-propagate-addrspaces.o[0m
     [34mCC[0m [33msrc/llvm-remove-addrspaces.o[0m
     [34mCC[0m [33msrc/llvm-alloc-opt.o[0m
     [34mCC[0m [33msrc/debuginfo.o[0m
     [34mCC[0m [33msrc/llvm-multiversioning.o[0m
-    [34mCC[0m [33msrc/llvm-late-gc-lowering.o[0m
     [34mCC[0m [33msrc/jitlayers.o[0m
+    [34mCC[0m [33msrc/llvm-late-gc-lowering.o[0m
     [34mCC[0m [33msrc/disasm.o[0m
     [34mCC[0m [33msrc/aotcompile.o[0m
     [34mCC[0m [33msrc/codegen.o[0m
@@ -317,48 +317,48 @@ client.jl
 docs/Docs.jl
 docs/bindings.jl
 docs/utils.jl
-Base  ───────────── 26.944745 seconds
-ArgTools  ─────────  5.177257 seconds
-Artifacts  ────────  0.105608 seconds
-Base64  ───────────  0.125653 seconds
-CRC32c  ───────────  0.007314 seconds
-FileWatching  ─────  0.123961 seconds
-Libdl  ────────────  0.001619 seconds
-Logging  ──────────  0.032918 seconds
-Mmap  ─────────────  0.084433 seconds
-NetworkOptions  ───  0.056623 seconds
-SHA  ──────────────  0.190217 seconds
-Serialization  ────  0.338755 seconds
-Sockets  ──────────  0.290912 seconds
-Unicode  ──────────  0.006266 seconds
-DelimitedFiles  ───  0.106110 seconds
-LinearAlgebra  ────  7.871254 seconds
-Markdown  ─────────  1.010864 seconds
-Printf  ───────────  0.290688 seconds
-Random  ───────────  0.510414 seconds
-Tar  ──────────────  0.277309 seconds
-Dates  ────────────  1.908170 seconds
-Distributed  ──────  0.809621 seconds
-Future  ───────────  0.004959 seconds
-InteractiveUtils  ─  0.595861 seconds
-LibGit2  ──────────  1.318494 seconds
-Profile  ──────────  0.259922 seconds
-SparseArrays  ─────  2.994216 seconds
-UUIDs  ────────────  0.014261 seconds
-REPL  ─────────────  4.460281 seconds
-SharedArrays  ─────  0.149850 seconds
-Statistics  ───────  0.177576 seconds
-SuiteSparse  ──────  0.710121 seconds
-TOML  ─────────────  0.091695 seconds
-Test  ─────────────  0.265094 seconds
-LibCURL  ──────────  0.446290 seconds
-Downloads  ────────  0.440971 seconds
-Pkg  ──────────────  4.704526 seconds
-LazyArtifacts  ────  0.001873 seconds
-Stdlibs total  ──── 35.978053 seconds
+Base  ───────────── 26.780389 seconds
+ArgTools  ─────────  5.346119 seconds
+Artifacts  ────────  0.108674 seconds
+Base64  ───────────  0.147962 seconds
+CRC32c  ───────────  0.008005 seconds
+FileWatching  ─────  0.111968 seconds
+Libdl  ────────────  0.001643 seconds
+Logging  ──────────  0.033579 seconds
+Mmap  ─────────────  0.091090 seconds
+NetworkOptions  ───  0.058178 seconds
+SHA  ──────────────  0.193821 seconds
+Serialization  ────  0.339243 seconds
+Sockets  ──────────  0.296455 seconds
+Unicode  ──────────  0.006493 seconds
+DelimitedFiles  ───  0.111463 seconds
+LinearAlgebra  ────  8.143472 seconds
+Markdown  ─────────  1.017487 seconds
+Printf  ───────────  0.290832 seconds
+Random  ───────────  0.516943 seconds
+Tar  ──────────────  0.282044 seconds
+Dates  ────────────  1.989824 seconds
+Distributed  ──────  0.829260 seconds
+Future  ───────────  0.005009 seconds
+InteractiveUtils  ─  0.604204 seconds
+LibGit2  ──────────  1.328442 seconds
+Profile  ──────────  0.265409 seconds
+SparseArrays  ─────  3.035249 seconds
+UUIDs  ────────────  0.014055 seconds
+REPL  ─────────────  4.436598 seconds
+SharedArrays  ─────  0.146958 seconds
+Statistics  ───────  0.180798 seconds
+SuiteSparse  ──────  0.751502 seconds
+TOML  ─────────────  0.069197 seconds
+Test  ─────────────  0.263846 seconds
+LibCURL  ──────────  0.448038 seconds
+Downloads  ────────  0.443816 seconds
+Pkg  ──────────────  4.732254 seconds
+LazyArtifacts  ────  0.001887 seconds
+Stdlibs total  ──── 36.667355 seconds
 Sysimage built. Summary:
-Total ───────  62.924696 seconds 
-Base: ───────  26.944745 seconds 42.8206%
-Stdlibs: ────  35.978053 seconds 57.1764%
+Total ───────  63.449606 seconds 
+Base: ───────  26.780389 seconds 42.2073%
+Stdlibs: ────  36.667355 seconds 57.7897%
     [32;1mJULIA[0m [37;1musr/lib/julia/sys-o.a[0m
     [34;1mLINK[0m [37;1musr/lib/julia/sys.so[0m
