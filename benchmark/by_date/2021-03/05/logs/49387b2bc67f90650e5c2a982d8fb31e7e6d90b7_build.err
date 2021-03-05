@@ -1,0 +1,163 @@
+ar: creating libutf8proc.a
+fatal: bad revision '^origin/master'
+fatal: Not a valid object name origin/master
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   369  100   369    0     0   3481      0 --:--:-- --:--:-- --:--:--  3481
+100   160  100   160    0     0    672      0 --:--:-- --:--:-- --:--:--   672
+100 10808  100 10808    0     0  29530      0 --:--:-- --:--:-- --:--:-- 29530
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   387  100   387    0     0   4206      0 --:--:-- --:--:-- --:--:--  4206
+100   169  100   169    0     0    775      0 --:--:-- --:--:-- --:--:--   775
+100  5863  100  5863    0     0  16240      0 --:--:-- --:--:-- --:--:-- 16240
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   385  100   385    0     0   4277      0 --:--:-- --:--:-- --:--:--  4325
+100   168  100   168    0     0    785      0 --:--:-- --:--:-- --:--:--   785
+100  5831  100  5831    0     0  16471      0 --:--:-- --:--:-- --:--:-- 16471
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   387  100   387    0     0   4252      0 --:--:-- --:--:-- --:--:--  4252
+100   169  100   169    0     0    771      0 --:--:-- --:--:-- --:--:--   771
+100  5863  100  5863    0     0  16994      0 --:--:-- --:--:-- --:--:-- 16994
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   387  100   387    0     0   4552      0 --:--:-- --:--:-- --:--:--  4552
+100   169  100   169    0     0    782      0 --:--:-- --:--:-- --:--:--   782
+100 11446  100 11446    0     0  32151      0 --:--:-- --:--:-- --:--:-- 32151
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   387  100   387    0     0   4837      0 --:--:-- --:--:-- --:--:--  4898
+100   169  100   169    0     0    836      0 --:--:-- --:--:-- --:--:--   836
+100  5863  100  5863    0     0  16799      0 --:--:-- --:--:-- --:--:-- 16799
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   377  100   377    0     0   4142      0 --:--:-- --:--:-- --:--:--  4142
+100   164  100   164    0     0    759      0 --:--:-- --:--:-- --:--:--   759
+100  5671  100  5671    0     0  15494      0 --:--:-- --:--:-- --:--:-- 15494
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   377  100   377    0     0   3886      0 --:--:-- --:--:-- --:--:--  3886
+100   164  100   164    0     0    745      0 --:--:-- --:--:-- --:--:--   745
+100  5671  100  5671    0     0  14248      0 --:--:-- --:--:-- --:--:-- 14248
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   379  100   379    0     0   5121      0 --:--:-- --:--:-- --:--:--  5121
+100   165  100   165    0     0    789      0 --:--:-- --:--:-- --:--:--   789
+100  5703  100  5703    0     0  16973      0 --:--:-- --:--:-- --:--:-- 16973
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   391  100   391    0     0   5012      0 --:--:-- --:--:-- --:--:--  5012
+100   171  100   171    0     0    863      0 --:--:-- --:--:-- --:--:--   863
+100 19091  100 19091    0     0  56482      0 --:--:-- --:--:-- --:--:-- 56482
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   385  100   385    0     0   4139      0 --:--:-- --:--:-- --:--:--  4139
+100   168  100   168    0     0    724      0 --:--:-- --:--:-- --:--:--   724
+100  5831  100  5831    0     0  15759      0 --:--:-- --:--:-- --:--:-- 15759
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   389  100   389    0     0   5186      0 --:--:-- --:--:-- --:--:--  5186
+100   170  100   170    0     0    862      0 --:--:-- --:--:-- --:--:--   862
+100  5911  100  5911    0     0  17804      0 --:--:-- --:--:-- --:--:-- 17804
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   373  100   373    0     0   4388      0 --:--:-- --:--:-- --:--:--  4440
+100   162  100   162    0     0    739      0 --:--:-- --:--:-- --:--:--   739
+100  5591  100  5591    0     0  15402      0 --:--:-- --:--:-- --:--:-- 15402
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   453  100   453    0     0   6205      0 --:--:-- --:--:-- --:--:--  6205
+100   202    0   202    0     0   1068      0 --:--:-- --:--:-- --:--:--  1068
+100 22679  100 22679    0     0  70651      0 --:--:-- --:--:-- --:--:-- 70651
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   381  100   381    0     0   5013      0 --:--:-- --:--:-- --:--:--  5013
+100   166  100   166    0     0    798      0 --:--:-- --:--:-- --:--:--   798
+100  5735  100  5735    0     0  16623      0 --:--:-- --:--:-- --:--:-- 16623
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   393  100   393    0     0   5103      0 --:--:-- --:--:-- --:--:--  5103
+100   172  100   172    0     0    914      0 --:--:-- --:--:-- --:--:--   914
+100  4555  100  4555    0     0  13678      0 --:--:-- --:--:-- --:--:-- 13678
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   411  100   411    0     0   5788      0 --:--:-- --:--:-- --:--:--  5788
+100   181  100   181    0     0    937      0 --:--:-- --:--:-- --:--:--   937
+100  6343  100  6343    0     0  19048      0 --:--:-- --:--:-- --:--:-- 19048
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   375  100   375    0     0   4807      0 --:--:-- --:--:-- --:--:--  4807
+100   163  100   163    0     0    815      0 --:--:-- --:--:-- --:--:--   815
+100  5623  100  5623    0     0  16019      0 --:--:-- --:--:-- --:--:-- 16019
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   425  100   425    0     0   4941      0 --:--:-- --:--:-- --:--:--  5000
+100   188  100   188    0     0    866      0 --:--:-- --:--:-- --:--:--   866
+100  6631  100  6631    0     0  16829      0 --:--:-- --:--:-- --:--:-- 16829
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   401  100   401    0     0   5569      0 --:--:-- --:--:-- --:--:--  5569
+100   176  100   176    0     0    862      0 --:--:-- --:--:-- --:--:--   862
+100  6151  100  6151    0     0  14271      0 --:--:-- --:--:-- --:--:-- 14271
+/home/vtjnash/test_workdir/jl_xxmCHc/src/ast.c: In function ‘jl_copy_ast’:
+/home/vtjnash/test_workdir/jl_xxmCHc/src/ast.c:920:42: warning: passing argument 1 of ‘jl_array_copy’ from incompatible pointer type [-Wincompatible-pointer-types]
+         new_ci->codelocs = jl_array_copy(new_ci->codelocs);
+                                          ^~~~~~
+In file included from /home/vtjnash/test_workdir/jl_xxmCHc/src/ast.c:14:0:
+/home/vtjnash/test_workdir/jl_xxmCHc/src/julia_internal.h:1138:26: note: expected ‘jl_array_t * {aka struct <anonymous> *}’ but argument is of type ‘jl_value_t * {aka struct _jl_value_t *}’
+ JL_DLLEXPORT jl_array_t *jl_array_copy(jl_array_t *ary);
+                          ^~~~~~~~~~~~~
+/home/vtjnash/test_workdir/jl_xxmCHc/src/ast.c:920:26: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+         new_ci->codelocs = jl_array_copy(new_ci->codelocs);
+                          ^
+/home/vtjnash/test_workdir/jl_xxmCHc/src/ast.c:922:43: warning: passing argument 1 of ‘jl_array_copy’ from incompatible pointer type [-Wincompatible-pointer-types]
+         new_ci->linetable = jl_array_copy(new_ci->linetable);
+                                           ^~~~~~
+In file included from /home/vtjnash/test_workdir/jl_xxmCHc/src/ast.c:14:0:
+/home/vtjnash/test_workdir/jl_xxmCHc/src/julia_internal.h:1138:26: note: expected ‘jl_array_t * {aka struct <anonymous> *}’ but argument is of type ‘jl_value_t * {aka struct _jl_value_t *}’
+ JL_DLLEXPORT jl_array_t *jl_array_copy(jl_array_t *ary);
+                          ^~~~~~~~~~~~~
+/home/vtjnash/test_workdir/jl_xxmCHc/src/ast.c:922:27: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+         new_ci->linetable = jl_array_copy(new_ci->linetable);
+                           ^
+/home/vtjnash/test_workdir/jl_xxmCHc/src/ast.c:928:43: warning: passing argument 1 of ‘jl_array_copy’ from incompatible pointer type [-Wincompatible-pointer-types]
+             new_ci->edges = jl_array_copy(new_ci->edges);
+                                           ^~~~~~
+In file included from /home/vtjnash/test_workdir/jl_xxmCHc/src/ast.c:14:0:
+/home/vtjnash/test_workdir/jl_xxmCHc/src/julia_internal.h:1138:26: note: expected ‘jl_array_t * {aka struct <anonymous> *}’ but argument is of type ‘jl_value_t * {aka struct _jl_value_t *}’
+ JL_DLLEXPORT jl_array_t *jl_array_copy(jl_array_t *ary);
+                          ^~~~~~~~~~~~~
+/home/vtjnash/test_workdir/jl_xxmCHc/src/ast.c:928:27: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+             new_ci->edges = jl_array_copy(new_ci->edges);
+                           ^
+/home/vtjnash/test_workdir/jl_xxmCHc/src/ast.c:933:51: warning: passing argument 1 of ‘jl_array_copy’ from incompatible pointer type [-Wincompatible-pointer-types]
+             new_ci->ssavaluetypes = jl_array_copy(new_ci->ssavaluetypes);
+                                                   ^~~~~~
+In file included from /home/vtjnash/test_workdir/jl_xxmCHc/src/ast.c:14:0:
+/home/vtjnash/test_workdir/jl_xxmCHc/src/julia_internal.h:1138:26: note: expected ‘jl_array_t * {aka struct <anonymous> *}’ but argument is of type ‘jl_value_t * {aka struct _jl_value_t *}’
+ JL_DLLEXPORT jl_array_t *jl_array_copy(jl_array_t *ary);
+                          ^~~~~~~~~~~~~
+/home/vtjnash/test_workdir/jl_xxmCHc/src/ast.c:933:35: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+             new_ci->ssavaluetypes = jl_array_copy(new_ci->ssavaluetypes);
+                                   ^
+/home/vtjnash/test_workdir/jl_xxmCHc/src/ast.c:937:16: warning: return from incompatible pointer type [-Wincompatible-pointer-types]
+         return new_ci;
+                ^~~~~~
+In file included from /home/vtjnash/test_workdir/jl_xxmCHc/src/codegen.cpp:57:0:
+/home/vtjnash/test_workdir/jl_xxmCHc/usr/include/llvm/ADT/Statistic.h:38:0: warning: "LLVM_ENABLE_STATS" redefined
+ #define LLVM_ENABLE_STATS 1
+ 
+In file included from /home/vtjnash/test_workdir/jl_xxmCHc/src/codegen.cpp:3:0:
+/home/vtjnash/test_workdir/jl_xxmCHc/src/llvm-version.h:24:0: note: this is the location of the previous definition
+ #define LLVM_ENABLE_STATS 0
+ 
+In file included from /home/vtjnash/test_workdir/jl_xxmCHc/src/codegen.cpp:51:0:
+/home/vtjnash/test_workdir/jl_xxmCHc/usr/include/llvm/IR/IRBuilder.h: In function ‘llvm::Function* gen_cfun_wrapper(llvm::Module*, jl_codegen_params_t&, const function_sig_t&, jl_value_t*, const char*, jl_value_t*, jl_method_instance_t*, jl_unionall_t*, jl_svec_t*, jl_array_t**)’:
+/home/vtjnash/test_workdir/jl_xxmCHc/usr/include/llvm/IR/IRBuilder.h:2056:60: warning: ‘result’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     return CreateCast(Instruction::BitCast, V, DestTy, Name);
+                                                            ^
+/home/vtjnash/test_workdir/jl_xxmCHc/src/codegen.cpp:5249:16: note: ‘result’ was declared here
+         Value *result;
+                ^~~~~~
