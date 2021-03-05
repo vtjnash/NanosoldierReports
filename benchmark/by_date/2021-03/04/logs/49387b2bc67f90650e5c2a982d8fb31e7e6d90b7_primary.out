@@ -1,113 +1,113 @@
-cset: moving following pidspec: 15162
+cset: moving following pidspec: 12957
 cset: moving 1 userspace tasks to /user/child
 cset: done
 LOADING SUITE...
-loading group "broadcast"... done (took 2.097410399 seconds)
-loading group "shootout"... done (took 1.360691346 seconds)
-loading group "string"... done (took 0.792979951 seconds)
-loading group "linalg"... done (took 9.842951788 seconds)
-loading group "parallel"... done (took 0.192709314 seconds)
-loading group "find"... done (took 3.305916449 seconds)
-loading group "tuple"... done (took 2.382325423 seconds)
-loading group "union"... done (took 16.430991718 seconds)
-loading group "dates"... done (took 1.644445586 seconds)
-loading group "micro"... done (took 0.242052821 seconds)
-loading group "simd"... done (took 5.323958751 seconds)
-loading group "io"... done (took 1.547350602 seconds)
-loading group "random"... done (took 11.094725589 seconds)
-loading group "problem"... done (took 1.792066222 seconds)
-loading group "array"... done (took 29.064425796 seconds)
-loading group "misc"... done (took 2.076932351 seconds)
-loading group "scalar"... done (took 49.086954677 seconds)
-loading group "sort"... done (took 3.66916416 seconds)
-loading group "sparse"... done (took 14.492115474 seconds)
-loading group "collection"... done (took 21.041007615 seconds)
+loading group "broadcast"... done (took 2.096169967 seconds)
+loading group "shootout"... done (took 1.361791265 seconds)
+loading group "string"... done (took 0.795527875 seconds)
+loading group "linalg"... done (took 9.881162122 seconds)
+loading group "parallel"... done (took 0.193231381 seconds)
+loading group "find"... done (took 3.32549459 seconds)
+loading group "tuple"... done (took 2.376531927 seconds)
+loading group "union"... done (took 16.455260168 seconds)
+loading group "dates"... done (took 1.652672398 seconds)
+loading group "micro"... done (took 0.242254435 seconds)
+loading group "simd"... done (took 5.280966091 seconds)
+loading group "io"... done (took 1.554279619 seconds)
+loading group "random"... done (took 11.052698569 seconds)
+loading group "problem"... done (took 1.790390973 seconds)
+loading group "array"... done (took 29.124262755 seconds)
+loading group "misc"... done (took 2.132626541 seconds)
+loading group "scalar"... done (took 48.777436459 seconds)
+loading group "sort"... done (took 3.669398872 seconds)
+loading group "sparse"... done (took 14.51916836 seconds)
+loading group "collection"... done (took 21.021830916 seconds)
 FILTERING SUITE...
 WARMING UP BENCHMARKS...
 (1/2) benchmarking "io"...
   (1/4) benchmarking "skipchars"...
-  done (took 0.53961306 seconds)
+  done (took 0.550938437 seconds)
   (2/4) benchmarking "array_limit"...
     (1/3) benchmarking ("display", "Matrix{Float64}(100000000, 1)")...
-    done (took 1.698661287 seconds)
+    done (took 1.769311178 seconds)
     (2/3) benchmarking ("display", "Vector{Float64}(100000000,)")...
-    done (took 0.33461797 seconds)
+    done (took 0.345562503 seconds)
     (3/3) benchmarking ("display", "Matrix{Float64}(10000, 10000)")...
-    done (took 0.167899528 seconds)
-  done (took 3.382851267 seconds)
+    done (took 0.174128342 seconds)
+  done (took 3.593003816 seconds)
   (3/4) benchmarking "serialization"...
     (1/4) benchmarking ("deserialize", "Matrix{Float64}")...
-    done (took 0.516109725 seconds)
+    done (took 0.521100837 seconds)
     (2/4) benchmarking ("deserialize", "Vector{String}")...
-    done (took 0.181907189 seconds)
+    done (took 0.188658436 seconds)
     (3/4) benchmarking ("serialize", "Matrix{Float64}")...
-    done (took 0.315755591 seconds)
+    done (took 0.323695928 seconds)
     (4/4) benchmarking ("serialize", "Vector{String}")...
-    done (took 0.075205556 seconds)
-  done (took 2.356036443 seconds)
+    done (took 0.079686841 seconds)
+  done (took 2.450992328 seconds)
   (4/4) benchmarking "read"...
     (1/2) benchmarking "readstring"...
-    done (took 0.112709872 seconds)
+    done (took 0.100014965 seconds)
     (2/2) benchmarking "read"...
-    done (took 0.097886075 seconds)
-  done (took 1.382251582 seconds)
-done (took 9.107703694 seconds)
+    done (took 0.086539258 seconds)
+  done (took 1.452084366 seconds)
+done (took 9.657041658 seconds)
 (2/2) benchmarking "parallel"...
   (1/1) benchmarking "remotecall"...
     (1/5) benchmarking ("identity", 512)...
-    done (took 0.465751802 seconds)
+    done (took 0.477297349 seconds)
     (2/5) benchmarking ("identity", 4096)...
-    done (took 0.087701932 seconds)
+    done (took 0.089902901 seconds)
     (3/5) benchmarking ("identity", 2)...
-    done (took 0.087545353 seconds)
+    done (took 0.089829929 seconds)
     (4/5) benchmarking ("identity", 1024)...
-    done (took 0.087429867 seconds)
+    done (took 0.089630468 seconds)
     (5/5) benchmarking ("identity", 64)...
-    done (took 0.087733671 seconds)
-  done (took 2.012714448 seconds)
-done (took 3.196318383 seconds)
+    done (took 0.090366434 seconds)
+  done (took 2.144114383 seconds)
+done (took 3.404979651 seconds)
 RUNNING BENCHMARKS...
 (1/2) benchmarking "io"...
   (1/4) benchmarking "skipchars"...
-  done (took 6.26794948 seconds)
+  done (took 6.392383357 seconds)
   (2/4) benchmarking "array_limit"...
     (1/3) benchmarking ("display", "Matrix{Float64}(100000000, 1)")...
-    done (took 6.183613306 seconds)
+    done (took 6.328608367 seconds)
     (2/3) benchmarking ("display", "Vector{Float64}(100000000,)")...
-    done (took 6.263400428 seconds)
+    done (took 6.409949706 seconds)
     (3/3) benchmarking ("display", "Matrix{Float64}(10000, 10000)")...
-    done (took 6.268382927 seconds)
-  done (took 19.888500997 seconds)
+    done (took 6.365160304 seconds)
+  done (took 20.378864693 seconds)
   (3/4) benchmarking "serialization"...
     (1/4) benchmarking ("deserialize", "Matrix{Float64}")...
-    done (took 6.191107142 seconds)
+    done (took 6.314523173 seconds)
     (2/4) benchmarking ("deserialize", "Vector{String}")...
-    done (took 3.264879974 seconds)
+    done (took 3.450972696 seconds)
     (3/4) benchmarking ("serialize", "Matrix{Float64}")...
-    done (took 6.237313987 seconds)
+    done (took 6.36685905 seconds)
     (4/4) benchmarking ("serialize", "Vector{String}")...
-    done (took 3.88629881 seconds)
-  done (took 20.82829979 seconds)
+    done (took 4.015013391 seconds)
+  done (took 21.538513931 seconds)
   (4/4) benchmarking "read"...
     (1/2) benchmarking "readstring"...
-    done (took 1.787553959 seconds)
+    done (took 1.9059441 seconds)
     (2/2) benchmarking "read"...
-    done (took 1.682504763 seconds)
-  done (took 4.628593634 seconds)
-done (took 52.829096146 seconds)
+    done (took 1.830877997 seconds)
+  done (took 5.026440317 seconds)
+done (took 54.674092175 seconds)
 (2/2) benchmarking "parallel"...
   (1/1) benchmarking "remotecall"...
     (1/5) benchmarking ("identity", 512)...
-    done (took 1.908063833 seconds)
+    done (took 2.066445423 seconds)
     (2/5) benchmarking ("identity", 4096)...
-    done (took 2.012251949 seconds)
+    done (took 2.145540976 seconds)
     (3/5) benchmarking ("identity", 2)...
-    done (took 1.930996517 seconds)
+    done (took 1.968744485 seconds)
     (4/5) benchmarking ("identity", 1024)...
-    done (took 1.913493306 seconds)
+    done (took 2.030893483 seconds)
     (5/5) benchmarking ("identity", 64)...
-    done (took 1.888563915 seconds)
-  done (took 10.82526232 seconds)
-done (took 11.9514782 seconds)
+    done (took 1.980889477 seconds)
+  done (took 11.448078809 seconds)
+done (took 12.70132613 seconds)
 SAVING RESULT...
 DONE!

@@ -4,13 +4,13 @@
 
 *Commit:* [vtjnash/julia@49387b2bc67f90650e5c2a982d8fb31e7e6d90b7](https://github.com/vtjnash/julia/commit/49387b2bc67f90650e5c2a982d8fb31e7e6d90b7)
 
-*Comparison Diff:* [link](https://github.com/vtjnash/julia/compare/093b2a6ea943f4c70fef4742453e73dd1aba255c..49387b2bc67f90650e5c2a982d8fb31e7e6d90b7)
+*Comparison Diff:* [link](https://github.com/vtjnash/julia/compare/d753a0b6a78d94d08c17b2c227916700e3359e4a..49387b2bc67f90650e5c2a982d8fb31e7e6d90b7)
 
-*Triggered By:* [link](https://github.com/vtjnash/julia/commit/49387b2bc67f90650e5c2a982d8fb31e7e6d90b7#commitcomment-47867374)
+*Triggered By:* [link](https://github.com/vtjnash/julia/commit/49387b2bc67f90650e5c2a982d8fb31e7e6d90b7#commitcomment-47869137)
 
 *Tag Predicate:* `"io"`
 
-*Daily Job:* 2021-03-04 vs [2021-02-17](../../2021-02/17)
+*Daily Job:* 2021-03-04 vs [2021-02-23](../../2021-02/23)/report.md
 
 ## Results
 
@@ -33,20 +33,21 @@ benchmark results remained invariant between builds).
 
 | ID | time ratio | memory ratio |
 |----|------------|--------------|
-| `["io", "array_limit", "(\"display\", \"Matrix{Float64}(10000, 10000)\")"]` | 1.27 (5%) :x: | 0.97 (1%) :white_check_mark: |
-| `["io", "array_limit", "(\"display\", \"Matrix{Float64}(100000000, 1)\")"]` | 1.36 (5%) :x: | 1.00 (1%)  |
-| `["io", "array_limit", "(\"display\", \"Vector{Float64}(100000000,)\")"]` | 1.36 (5%) :x: | 1.00 (1%)  |
-| `["io", "read", "read"]` | 1.26 (5%) :x: | 1.00 (1%)  |
-| `["io", "serialization", "(\"deserialize\", \"Matrix{Float64}\")"]` | 2.38 (5%) :x: | 1.00 (1%)  |
-| `["io", "serialization", "(\"deserialize\", \"Vector{String}\")"]` | 1.25 (5%) :x: | 1.00 (1%)  |
-| `["io", "serialization", "(\"serialize\", \"Matrix{Float64}\")"]` | 1.26 (5%) :x: | 1.00 (1%)  |
-| `["io", "serialization", "(\"serialize\", \"Vector{String}\")"]` | 1.23 (5%) :x: | 1.00 (1%)  |
-| `["io", "skipchars"]` | 1.29 (5%) :x: | 1.00 (1%)  |
-| `["parallel", "remotecall", "(\"identity\", 1024)"]` | 1.21 (5%) :x: | 1.01 (1%)  |
-| `["parallel", "remotecall", "(\"identity\", 2)"]` | 1.20 (5%) :x: | 1.02 (1%) :x: |
-| `["parallel", "remotecall", "(\"identity\", 4096)"]` | 1.18 (5%) :x: | 1.00 (1%)  |
-| `["parallel", "remotecall", "(\"identity\", 512)"]` | 1.21 (5%) :x: | 1.01 (1%) :x: |
-| `["parallel", "remotecall", "(\"identity\", 64)"]` | 1.21 (5%) :x: | 1.02 (1%) :x: |
+| `["io", "array_limit", "(\"display\", \"Matrix{Float64}(10000, 10000)\")"]` | 1.05 (5%) :x: | 0.91 (1%) :white_check_mark: |
+| `["io", "array_limit", "(\"display\", \"Matrix{Float64}(100000000, 1)\")"]` | 1.11 (5%) :x: | 1.00 (1%)  |
+| `["io", "array_limit", "(\"display\", \"Vector{Float64}(100000000,)\")"]` | 1.11 (5%) :x: | 1.00 (1%)  |
+| `["io", "read", "read"]` | 0.85 (5%) :white_check_mark: | 1.00 (1%)  |
+| `["io", "read", "readstring"]` | 1.37 (5%) :x: | 1.00 (1%)  |
+| `["io", "serialization", "(\"deserialize\", \"Matrix{Float64}\")"]` | 1.14 (5%) :x: | 1.00 (1%)  |
+| `["io", "serialization", "(\"deserialize\", \"Vector{String}\")"]` | 1.11 (5%) :x: | 1.00 (1%)  |
+| `["io", "serialization", "(\"serialize\", \"Matrix{Float64}\")"]` | 1.12 (5%) :x: | 1.00 (1%)  |
+| `["io", "serialization", "(\"serialize\", \"Vector{String}\")"]` | 1.16 (5%) :x: | 1.00 (1%)  |
+| `["io", "skipchars"]` | 1.14 (5%) :x: | 1.00 (1%)  |
+| `["parallel", "remotecall", "(\"identity\", 1024)"]` | 1.16 (5%) :x: | 1.01 (1%)  |
+| `["parallel", "remotecall", "(\"identity\", 2)"]` | 1.18 (5%) :x: | 1.02 (1%) :x: |
+| `["parallel", "remotecall", "(\"identity\", 4096)"]` | 1.16 (5%) :x: | 1.00 (1%)  |
+| `["parallel", "remotecall", "(\"identity\", 512)"]` | 1.15 (5%) :x: | 1.01 (1%) :x: |
+| `["parallel", "remotecall", "(\"identity\", 64)"]` | 1.17 (5%) :x: | 1.02 (1%) :x: |
 
 ## Benchmark Group List
 
@@ -71,11 +72,11 @@ Platform Info:
   uname: Linux 4.15.0-135-generic #139-Ubuntu SMP Mon Jan 18 17:38:24 UTC 2021 x86_64 x86_64
   CPU: Intel(R) Xeon(R) Silver 4114 CPU @ 2.20GHz: 
                  speed         user         nice          sys         idle          irq
-       #1-40   800 MHz    6564744 s       5602 s     613528 s  729766256 s          0 s
+       #1-40   800 MHz    6595098 s       5602 s     616878 s  731551620 s          0 s
        
-  Memory: 376.5897979736328 GB (26279.27734375 MB free)
-  Uptime: 1.842863e6 sec
-  Load Avg:  1.19  1.16  1.06
+  Memory: 376.5897979736328 GB (31352.38671875 MB free)
+  Uptime: 1.847412e6 sec
+  Load Avg:  1.42  1.16  0.94
   WORD_SIZE: 64
   LIBM: libopenlibm
   LLVM: libLLVM-11.0.1 (ORCJIT, skylake-avx512)
